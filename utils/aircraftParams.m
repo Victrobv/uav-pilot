@@ -78,7 +78,7 @@ UAV.R_motor = 0.042;           % [ohms]
 UAV.i0 = 1.5;                  % [A]
 
 UAV.ncells = 12;               % [-]
-UAV.V_max = 3.7*ncells;        % [V]
+UAV.V_max = 3.7*UAV.ncells;        % [V]
 
 %------- Propeller Coeffs -------%
 UAV.C_Q2 = -0.01664;  % [-]
