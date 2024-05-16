@@ -9,9 +9,9 @@ UAV.Jy   = 1.135;            % [kg-m^2]
 UAV.Jz   = 1.759;            % [kg-m^2]
 UAV.Jxz  = 0.120;            % [kg-m^2]
 
-UAV.I = [Jx,  0, -Jxz;
-      0,  Jy,  0;
-    -Jxz, 0,  Jz];
+UAV.I = [UAV.Jx,  0, -UAV.Jxz;
+          0,  UAV.Jy,  0;
+        -UAV.Jxz, 0,  UAV.Jz];
 
 UAV.S_wing        = 0.55;    % [m^2]
 UAV.b             = 2.90;    % [m]
